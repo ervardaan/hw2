@@ -1,0 +1,13 @@
+1) create and actiavte the virtualenvironment using virtualenv
+>virtuanenv myvenv     
+created virtual environment CPython3.13.2.final.0-64 in 7876ms
+  creator CPython3Windows(dest=C:\Users\varda\OneDrive\Documents\hw2\myvenv, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, via=copy, app_data_dir=C:\Users\varda\AppData\Local\pypa\virtualenv)
+    added seed packages: pip==25.1.1
+  activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+PS C:\Users\varda\OneDrive\Documents\hw2> .\myvenv\Scripts\activate
+2) create .env and .gitignore files
+3) only make changes in app.js files
+4) create requirements.txt file using pip freeze > requirements.txt
+5) create a development branch and push changes to it
+6) then merge these final changes to the main branch
